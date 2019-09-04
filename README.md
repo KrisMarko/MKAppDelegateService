@@ -1,0 +1,2 @@
+# MKAppDelegateService
+想在很多app上的业务都是通过组件的方式引入，本项目目的解决业务组件中获取到app生命周期。
