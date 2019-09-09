@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MKAppDelegateService_Example' do
+  pod 'MKAppDelegateService', :path => '../'
+
+  target 'MKAppDelegateService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
