@@ -1,9 +1,7 @@
 # MKAppDelegateService
 现在很多app上的业务都是通过组件的方式引入，本项目目的解决业务组件中获取到app生命周期。
 
-[![CI Status](https://img.shields.io/travis/Kris.Marko---ZhangYu/MKAppDelegateService.svg?style=flat)](https://travis-ci.org/Kris.Marko---ZhangYu/MKAppDelegateService)
-[![Version](https://img.shields.io/cocoapods/v/MKAppDelegateService.svg?style=flat)](https://cocoapods.org/pods/MKAppDelegateService)
-[![License](https://img.shields.io/cocoapods/l/MKAppDelegateService.svg?style=flat)](https://cocoapods.org/pods/MKAppDelegateService)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://cocoapods.org/pods/MKAppDelegateService)
 [![Platform](https://img.shields.io/cocoapods/p/MKAppDelegateService.svg?style=flat)](https://cocoapods.org/pods/MKAppDelegateService)
 
 ## Example
