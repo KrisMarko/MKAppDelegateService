@@ -1,0 +1,16 @@
+PODS:
+  - MKAppDelegateService (0.1.0)
+
+DEPENDENCIES:
+  - MKAppDelegateService (from `../`)
+
+EXTERNAL SOURCES:
+  MKAppDelegateService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKAppDelegateService: 25f5bdccdb25027da9005a3f3562351b56a6c461
+
+PODFILE CHECKSUM: 3ee853372f323bc82e7759dde1179c0981bba070
+
+COCOAPODS: 1.7.3

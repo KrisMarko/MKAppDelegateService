@@ -1,0 +1,6 @@
+framework module MKAppDelegateService {
+  umbrella header "MKAppDelegateService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,14 +2,17 @@
 //  MKAppDelegate.h
 //  MKAppDelegateService
 //
-//  Created by Kris.Marko---ZhangYu on 09/09/2019.
-//  Copyright (c) 2019 Kris.Marko---ZhangYu. All rights reserved.
+//  Created by 张禹 on 2019/3/19.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface MKAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @end
+
+NS_ASSUME_NONNULL_END
