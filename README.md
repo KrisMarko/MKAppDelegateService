@@ -19,7 +19,7 @@ pod 'MKAppDelegateService'
 2.Run `pod install`or`pod update`
 3.Import <MKAppDelegateService/MKAppDelegateService.h>
 
-##Usage
+## Usage
 1.首先AppDelegate.h中如下，引用`<MKAppDelegateService/MKAppDelegateService.h>`，修改继承关系`MKAppDelegate`
 ``` objectivec
 @import UIKit;
@@ -95,7 +95,7 @@ MK_EXPORT_SERVICE(MKTestAppDelegateService)
 ```
 
 下面为打印输出
-![log](https://github.com/KrisMarko/MKAppDelegateService/MDResource/log.png)
+![log](https://github.com/KrisMarko/MKAppDelegateService/blob/master/MDResource/log.png?raw=true)
 
 MKAppDelegateForwardProxy.h
 ```objectivec
