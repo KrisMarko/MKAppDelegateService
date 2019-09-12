@@ -78,7 +78,7 @@ MK_EXPORT_SERVICE(MKTestAppDelegateService)
 
 @end
 ```
-3.AppDelegate中已经实现的方法需要让父类调用一下，为实现的方法无需关注。如下：
+3.AppDelegate中已经实现的方法需要让父类调用一下，未实现的方法无需关注。如下：
 ```objectivec
 @implementation MKDemoAppDelegate
 
@@ -151,8 +151,8 @@ MKAppDelegateForwardProxy.h
 - (NSString *)serviceName { return @#name; }
 ```
 
-###注：因内部实现是重写AppDelegate的forwardInvocation这个方法，如果AppDelegate已经实现的`UIApplicationDelegate`	方法没有使用super再次调用，则无法调到代理中的实现。
-##Demo Project
+### 注：因内部实现是重写AppDelegate的forwardInvocation这个方法，如果AppDelegate已经实现的`UIApplicationDelegate`	方法没有使用super再次调用，则无法调到代理中的实现。
+## Demo Project
 See `Example/MKAppDelegateService.xcworkspace`
 
 ## Author
