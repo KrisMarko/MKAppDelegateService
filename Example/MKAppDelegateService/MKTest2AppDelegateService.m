@@ -9,13 +9,13 @@
 #import "MKTest2AppDelegateService.h"
 #import <MKAppDelegateService/MKAppDelegateService.h>
 
-@interface MKTest2AppDelegateService () <MKAppDelegateForwardDelegate>
-
-@end
+//@interface MKTest2AppDelegateService () <MKAppDelegateForwardDelegate>
+//
+//@end
 
 @implementation MKTest2AppDelegateService
 
-MK_EXPORT_SERVICE(MKTest2AppDelegateService)
+//MK_EXPORT_SERVICE(MKTest2AppDelegateService)
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     NSLog(@"%s",__FUNCTION__);
